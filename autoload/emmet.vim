@@ -1467,6 +1467,7 @@ let s:emmet_settings = {
 \                    ."</html>",
 \            'html:5': "<!DOCTYPE html>\n"
 \                    ."<html lang=\"${lang}\">\n"
+\                    ."<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no,target-densitydpi=medium-dpi\">\n"
 \                    ."<head>\n"
 \                    ."\t<meta charset=\"${charset}\">\n"
 \                    ."\t<title></title>\n"
